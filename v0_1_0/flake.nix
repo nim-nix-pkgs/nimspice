@@ -11,6 +11,7 @@
   inputs.src-nimspice-v0_1_0.ref   = "refs/tags/v0.1.0";
   inputs.src-nimspice-v0_1_0.owner = "CodeDoes";
   inputs.src-nimspice-v0_1_0.repo  = "nimspice";
+  inputs.src-nimspice-v0_1_0.dir   = "";
   inputs.src-nimspice-v0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
